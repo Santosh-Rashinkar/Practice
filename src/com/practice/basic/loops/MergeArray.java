@@ -1,5 +1,7 @@
 package com.practice.basic.loops;
 
+import java.util.Arrays;
+
 public class MergeArray {
 
 	public MergeArray() {
@@ -20,13 +22,15 @@ public class MergeArray {
 
 		for (int i = 0; i < nums.length; i++) {
 			mergedArray[i] = nums[i];
+			System.out.println(Arrays.toString(mergedArray));
 		}
 
 		int counter = 0;
 
-		for (int i = nums.length; i < nums1.length + nums.length; i++) {
+		for (int i = nums.length; i < mergedArray.length; i++) {
 			mergedArray[i] = nums1[counter];
 			counter++;
+			System.out.println(Arrays.toString(mergedArray));
 		}
 
 		return mergedArray;

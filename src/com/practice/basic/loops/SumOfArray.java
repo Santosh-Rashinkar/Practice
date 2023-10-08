@@ -8,7 +8,7 @@ public class SumOfArray {
 
 	  additionOfArray(num1);
 	}
-	private static int additionOfArray(int[] num1) {
+	public static int additionOfArray(int[] num1) {
 	
 		int sum = 0;
 

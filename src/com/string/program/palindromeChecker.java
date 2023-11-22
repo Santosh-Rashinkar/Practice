@@ -4,9 +4,9 @@ public class palindromeChecker {
 
 	public static String checkPalindrome(String input) {
 
-		String reversedString = "";
+		String reversedString ="";
 
-		System.out.println(reversedString);
+		System.out.println( reversedString);
 
 		for (int i = input.length() - 1; i >= 0; i--) {
 

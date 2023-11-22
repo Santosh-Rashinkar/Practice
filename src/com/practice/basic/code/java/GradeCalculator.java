@@ -20,24 +20,29 @@ public class GradeCalculator {
 	public static String gradeCalculator(int score) {
 
 		if (score >=90) {
-			System.out.println("The student's grade is: A++ with distension");
+			System.out.println("The student's grade is : A++ with distension");
 		} 
-		else if (score >=80) {
+		else if (score >=81) {
 
 			System.out.println("The student's grade is: A");
 		} 
-		else if (score >=70) {
+		else if (score >=71) {
 
 			System.out.println("The student's grade is: B");
 		} 
-		else if (score >=60) {
+		else if (score >=61) {
 
 			System.out.println("The student's grade is: C");
 		} 
-		else if (score >=50) {
+		else if (score >=51) {
 
 			System.out.println("The student's grade is: D");
 	    }
+		else if (score >=40) {
+			
+			System.out.println("The student's grade is: E");
+		}
+		
 		else {
 			
 			System.out.println("The student's grade is: Fail");

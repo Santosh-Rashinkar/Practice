@@ -7,11 +7,11 @@ public class CalculateCircleOfCircumference {
      static float PI = 3.14f;
      double redius;
      
-     static double calculateArea(double redius) {
+    public static double calculateArea(double redius) {
     	 
     	 return PI*redius*redius;
      }
-     static double calculateCircumference(double redius) {
+    public static double calculateCircumference(double redius) {
     	 
     	 return 5*3.14*redius;
      }

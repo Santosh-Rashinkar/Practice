@@ -15,7 +15,7 @@ public class CalculateAverageMarks {
 		
 		subject1=scan.nextInt();
 		subject2=scan.nextInt();
-		subject3 =scan.nextInt();
+		subject3=scan.nextInt();
 		subject4=scan.nextInt();
 		subject5=scan.nextInt();
 		subject6=scan.nextInt();

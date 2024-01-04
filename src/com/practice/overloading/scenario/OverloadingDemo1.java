@@ -23,6 +23,6 @@ public class OverloadingDemo1 {
 
 		long a = 10;
 
-		demo1.add(a,10);
+		demo1.add(20,a);
 	}
 }

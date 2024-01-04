@@ -18,8 +18,7 @@ public class VarArgMethodDemo {
 
 		VarArgMethodDemo obj = new VarArgMethodDemo();
 
-		obj.m1("hello", 10, 20, 30);
-
+		obj.m1("hello", 30, 20, 30);
 	}
 
 }

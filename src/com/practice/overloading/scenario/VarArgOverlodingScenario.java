@@ -23,8 +23,6 @@ public class VarArgOverlodingScenario {
 //		obj.test(10);
 //		obj.test(10,5,6);
 //		obj.test('a','e','f','i','o');
-		obj.test(999999999);
-		
+		obj.test(999999999);	
 	}
-
 }

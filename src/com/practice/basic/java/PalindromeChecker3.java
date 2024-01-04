@@ -6,12 +6,12 @@ public class PalindromeChecker3 {
 
 		String reversedString = "";
 
-//		char[] charArray = s.toCharArray();
-//		
-//		for(char ch : charArray ) {
-//		
-//			System.out.println(ch);
-//		}
+		char[] charArray = s.toCharArray();
+		
+		for(char ch : charArray ) {
+		
+			System.out.println(ch);
+		}
 
 		for (int i = s.length() - 1; i >= 0; i--) {
 

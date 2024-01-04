@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Expression {
 	
 	public static double calculateExpression(int x,int y) {
+		
 		return (4*Math.pow(x,2)+5*Math.pow(y, 3))/(2*x*y);
 		
 	}
@@ -13,17 +14,17 @@ public class Expression {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("Enter the value of x: ");
+		System.out.println("Enter the value of x : ");
 		
 		int x = scan.nextInt();
 		
-		System.out.println("Enter the value of y: ");
+		System.out.println("Enter the value of y : ");
 		
 		int y = scan.nextInt();
 		
 		double z = calculateExpression(x,y);
 		
-		System.out.println("The value of expression is: "+z);
+		System.out.println("The value of expression is: " + z);
 		
 		scan.close();
 		

@@ -27,7 +27,7 @@ public class DuplicateNumberInArray {
 
 				if (a[i] == a[j]) {
 
-					System.out.print(a[i] + " ");
+					System.out.print(a[i] + "  ");
 
 				}
 			}

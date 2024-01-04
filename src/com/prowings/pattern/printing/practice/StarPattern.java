@@ -2,8 +2,6 @@ package com.prowings.pattern.printing.practice;
 
 public class StarPattern {
 
-	int i = 3, j = 4;
-
 	public static void main(String[] args) {
 
 		for (int i = 1; i <= 5; i++) {

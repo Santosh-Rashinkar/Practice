@@ -17,7 +17,7 @@ public class AdditionOfTwoArrays {
 	public static int[] additionOfTwoArrays(int[] nums1, int[] nums2) {
 //		int size = nums1.length > nums2.length ? nums1.length : nums2.length;
 		
-		int size = 0;
+	int size = 0;
 		
 		if(nums1.length > nums2.length)
 			size = nums1.length;
@@ -33,13 +33,13 @@ public class AdditionOfTwoArrays {
 //			int num2 = i < nums2.length ? nums2[i] : 0;
 			int num1 =0;
 			if(i<nums1.length) 
-				num1 =nums1[i];
-				else
-					num1 = 0;
-			int num2 = 0;
-			if(i<nums2.length) 
-				num2 =nums2[i];
+			num1 =nums1[i];
 			else
+				num1 = 0;
+		int num2 = 0;
+		if(i<nums2.length) 
+			num2 =nums2[i];
+		else
 				num2 = 0;
 			
 			result[i] = num1 + num2;

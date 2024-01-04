@@ -1,8 +1,8 @@
 package com.practice.basic.java;
 
-public class PalindromeChecker {
+public class PrintStringInSingle {
 
-	public static void checkPalindrome(String s) {
+	public static void printStringInCharacter(String s) {
 
 		char[] charArray = s.toCharArray();
 
@@ -10,11 +10,9 @@ public class PalindromeChecker {
 
 			System.out.println(ch);
 		}
-
 	}
-
 	public static void main(String[] args) {
 
-		PalindromeChecker.checkPalindrome("dad");
+		PrintStringInSingle.printStringInCharacter("dad");
 	}
 }

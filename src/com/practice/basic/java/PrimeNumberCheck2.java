@@ -6,19 +6,19 @@ public class PrimeNumberCheck2 {
 
 		int temp = 0;
 
-		System.out.println("prime numbers");
+		System.out.println("This is all prime numbers ");
 
-		for (int no1 = 1; no1 <= 100; no1++) {
+		for (int number = 1; number <= 100; number++) {
 
-			for (int i = 2; i <= no1 - 1; i++) {
+			for (int i = 2; i <= number - 1; i++) {
 
-				if (no1 % i == 0)
+				if (number % i == 0)
 
 					temp = temp + 1;
 			}
 			if (temp == 0) {
 
-				System.out.println(no1);
+				System.out.println(number);
 			} 
 			else {
 				temp = 0;

@@ -14,7 +14,7 @@ public class PrimeNumberCheck {
 //		int no = 5 ;
 		int temp = 0;
 
-		for (int i = 2; i <= no - 1; i++) {
+		for (int i = 2; i <= no ; i++) {
 
 			if (no % i == 0)
 
@@ -29,5 +29,4 @@ public class PrimeNumberCheck {
 		}
 		scan.close();
 	}
-
 }
